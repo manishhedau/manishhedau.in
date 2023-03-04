@@ -14,7 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-3xl font-bold underline">My personal blog</h1>
+        <h1 className="text-3xl font-bold underline">
+          Name : Manish Hedau
+        </h1>
+        <h1 className="text-3xl font-bold underline">
+          Profession : Full Stack developer
+        </h1>
       </main>
     </>
   );
