@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="text-3xl font-bold underline">
-          Name : Manish Hedau
+          Name : MR Manish Hedau
         </h1>
         <h1 className="text-3xl font-bold underline">
           Profession : Full Stack developer
