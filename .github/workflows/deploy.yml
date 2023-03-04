@@ -29,7 +29,6 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Deploy to aws Server
         uses: easingthemes/ssh-deploy@main
