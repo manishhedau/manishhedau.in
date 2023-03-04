@@ -39,7 +39,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: "~/manish-hedau/portfolio/"
-          EXCLUDE: "/dist/, /node_modules/, .git"
+          # EXCLUDE: "/dist/, /node_modules/, .git"
 
       - name: Executing multiple commands
         uses: appleboy/ssh-action@v0.1.6
