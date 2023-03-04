@@ -52,6 +52,6 @@ jobs:
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
             cd ~/manish-hedau/portfolio/  
-            git pull origin main
+            # git pull origin main
             npm install
             npm run build
