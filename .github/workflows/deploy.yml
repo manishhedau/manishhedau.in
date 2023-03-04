@@ -1,5 +1,4 @@
 name: Manish Portfolio
-
 on:
   push:
     branches: [main]
