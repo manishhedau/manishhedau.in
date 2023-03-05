@@ -35,7 +35,8 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.KEY }}
           # ARGS: "-rltgoDzvO --delete"
-          ARGS: "-av"
+          # ARGS: "-av"
+          ARGS: "-rltgoDzvO"
           SOURCE: "./"
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
