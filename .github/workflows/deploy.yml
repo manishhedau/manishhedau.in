@@ -37,7 +37,7 @@ jobs:
           # ARGS: "-rltgoDzvO --delete"
           # ARGS: "-av"
           ARGS: "-rltgoDzvO"
-          SOURCE: "./"
+          # SOURCE: "/"
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: "~/manish-hedau/portfolio/"
