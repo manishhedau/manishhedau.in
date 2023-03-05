@@ -49,9 +49,11 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
           script: |
-            curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
-            . ~/.nvm/nvm.sh
-            nvm instal 18
+            # curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
+            # . ~/.nvm/nvm.sh
+            # nvm instal 18
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
             cd ~/manish-hedau/portfolio/  
             # git pull origin main
             npm install
